@@ -23,7 +23,6 @@
 /* USER CODE BEGIN Includes */
 #include <stdio.h>
 #include "FreeRTOS.h"
-#include "FreeRTOSConfig.h"
 #include "task.h"
 
 /* USER CODE END Includes */
@@ -45,6 +44,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
+//for segger timer setting
+//#define DWT_CTRL    (*(volatile uint32_t*)0xE0001000)
 
 /* USER CODE END PV */
 
@@ -93,6 +94,14 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   /* USER CODE BEGIN 2 */
+
+  //for SEGGER settings
+  //DWT_CTRL |= ( 1 << 0);
+
+  //SEGGER_SYSVIEW_Conf();
+  //SEGGER_SYSVIEW_Start();
+  //end of segger settings
+
   status = xTaskCreate(
 						  task1_handler,       /* Function that implements the task. */
 						  "task-1",          /* Text name for the task. */
