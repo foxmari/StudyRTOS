@@ -90,8 +90,8 @@ to exclude the API function. */
 
 
 // add segger settings
-//#define INCLUDE_xTaskGetIdleTaskHandle  1
-//#define INCLUDE_pxTaskGetStackStart		1
+#define INCLUDE_xTaskGetIdleTaskHandle  1
+#define INCLUDE_pxTaskGetStackStart		1
 
 /* Cortex-M specific definitions. */
 #ifdef __NVIC_PRIO_BITS
@@ -129,7 +129,7 @@ standard names. */
 #define xPortSysTickHandler SysTick_Handler
 
 //add segger setting
-//#include "SEGGER_SYSVIEW_FreeRTOS.h"
+#include "SEGGER_SYSVIEW_FreeRTOS.h"
 
 #endif /* FREERTOS_CONFIG_H */
 

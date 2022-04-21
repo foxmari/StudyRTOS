@@ -45,7 +45,7 @@
 
 /* USER CODE BEGIN PV */
 //for segger timer setting
-//#define DWT_CTRL    (*(volatile uint32_t*)0xE0001000)
+#define DWT_CTRL    (*(volatile uint32_t*)0xE0001000)
 
 /* USER CODE END PV */
 
@@ -96,10 +96,10 @@ int main(void)
   /* USER CODE BEGIN 2 */
 
   //for SEGGER settings
-  //DWT_CTRL |= ( 1 << 0);
+  DWT_CTRL |= ( 1 << 0);
 
-  //SEGGER_SYSVIEW_Conf();
-  //SEGGER_SYSVIEW_Start();
+  SEGGER_SYSVIEW_Conf();
+  SEGGER_SYSVIEW_Start();
   //end of segger settings
 
   status = xTaskCreate(

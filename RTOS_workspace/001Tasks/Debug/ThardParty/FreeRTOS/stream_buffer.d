@@ -2,6 +2,13 @@ ThardParty/FreeRTOS/stream_buffer.o: \
  ../ThardParty/FreeRTOS/stream_buffer.c \
  D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/include/FreeRTOS.h \
  D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/FreeRTOSConfig.h \
+ D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h \
+ D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h \
+ D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/SEGGER/SEGGER.h \
+ D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/Config/Global.h \
+ D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h \
+ D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h \
+ D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/Config/SEGGER_RTT_Conf.h \
  D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/include/projdefs.h \
  D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/include/portable.h \
  D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/include/deprecated_definitions.h \
@@ -14,6 +21,20 @@ ThardParty/FreeRTOS/stream_buffer.o: \
 D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/include/FreeRTOS.h:
 
 D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/FreeRTOSConfig.h:
+
+D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/OS/SEGGER_SYSVIEW_FreeRTOS.h:
+
+D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/SEGGER/SEGGER_SYSVIEW.h:
+
+D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/SEGGER/SEGGER.h:
+
+D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/Config/Global.h:
+
+D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/SEGGER/SEGGER_SYSVIEW_ConfDefaults.h:
+
+D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/Config/SEGGER_SYSVIEW_Conf.h:
+
+D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/SEGGER/Config/SEGGER_RTT_Conf.h:
 
 D:/workspace/StudyRTOS/RTOS_workspace/001Tasks/ThardParty/FreeRTOS/include/projdefs.h:
 
