@@ -1,4 +1,7 @@
 .metadata/
 Debug/
+.settings
+.mxproject
+*.lanch
 *.o
 records/
